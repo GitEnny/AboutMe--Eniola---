@@ -87,3 +87,61 @@ main {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.galmain{
+    padding-top: 10px;
+}
+.con {
+    width: 100%;
+    overflow: hidden;
+}
+.last {
+    grid-column: 1/3;
+}
+.imaging {
+    width: 500px;
+}
+.galfoot {
+    margin-top: 50px;
+}
+.lastimg {
+    width: 1000px;
+}
+.name {
+    position: absolute;
+    transform: translate(10px, -120px);
+    background-color: #fff;
+    padding: 10px;
+}
+.nam {
+    position: absolute;
+    transform: translate(10px, -510px);
+    background-color: #fff;
+    padding: 10px;
+}
+.nme {
+    position: absolute;
+    transform: translate(10px, -340px);
+    background-color: #fff;
+    padding: 10px;
+}
+.ame {
+    position: absolute;
+    transform: translate(10px, -500px);
+    background-color: #fff;
+    padding: 10px;
+}
+.na {
+    position: absolute;
+    transform: translate(10px, -830px);
+    background-color: #fff;
+    padding: 10px;
+}
