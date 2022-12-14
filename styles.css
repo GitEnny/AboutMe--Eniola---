@@ -80,6 +80,7 @@ footer {
 }
 main {
     border: 3px solid #000;
+    
 }
 .third {
     margin: 0 auto;
@@ -145,3 +146,45 @@ main {
     background-color: #fff;
     padding: 10px;
 }
+.ma {
+    margin-top:0;
+    padding: 10px;
+    background-image:url(/Images/Nigerian\ Dish.jpg) ;
+    
+
+}
+.app-info {
+    display: block;
+}
+.label {
+    display: block;
+}
+.hh {
+    display: block;
+    background-color: transparent;
+}
+.app {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow:2px 0px 10px #fff ;
+    text-align-last: center;
+    background-color: transparent;
+}
+legend {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 0px 10px rgb(249, 248, 248);
+    text-align: center;
+}
+ form {
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration-color: transparent;
+ }
+ #txtid {
+    width: 500px;
+    height: 200px;
+    background-color: transparent;
+ }

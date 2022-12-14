@@ -15,7 +15,7 @@
                     <nav class="mainnav">
                         <a href="../html/gallery.html"><b>Gallery</b> </a>
                         <a href="../index.html"><b>HOME</b></a>
-                        <a href="html/Reservation.html"><b>Reservation</b></a>
+                      
                         
                     </nav>
                 </div>
@@ -23,7 +23,33 @@
             
             <img src="../Images/Chops N' Drinks-logos.jpeg" alt="Chops and Drinks " class="logo">
         </header>
-        <main>
+        <main class="ma">
+            <form method="get" action="thankyou.html" class="hh">
+                <fieldset class="app-info">
+                <legend>Contact Us</legend>
+                <label for="fname" class="app">First Name*
+                <input type="text" id="fname" required placeholder="Enter your first name">
+                </label>
+                <label for="lname" class="app">Last Name*
+                <input type="text" id="lname" required placeholder="Enter your last name">
+                </label>
+                <label for="email" class="app">Email*
+                <input type="email" id="email" required placeholder="email@email.com">
+                </label>
+                <label for="phone" class="app">Phone*
+                <input type="tel" id="phone" required placeholder="123-456-7890">
+                </label>
+                </label>
+                </fieldset>
+                <fieldset class="disc">
+                <label for="Question"></label>
+                <textarea id="txtid" name="Have a Question" rows="10" cols="42" maxlength="500" ></textarea>
+                </fieldset>
+                <input type="hidden" id="date" name="date" value="CurrentTime">
+                <input type="hidden" id="time" name="time" value="CurrentTime">
+                <input type="submit" value="Send Request" class="submitBtn">
+                </form>
+            
             <span>&copy; Copyright | Eniola Ogundele | 2022</span>
         </main>
 </body>
